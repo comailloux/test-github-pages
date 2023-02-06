@@ -39,5 +39,5 @@ class class1
      * @brief Construct a new method1 object
      * 
      */
-    method1();
+    void method1();
 }

@@ -30,7 +30,7 @@ class1::~class1()
     std::cout << "dtor class1" << std::endl;
 }
 
-class1::method1()
+void class1::method1()
 {
     std::cout << "method1 of class1" << std::endl;
 }
