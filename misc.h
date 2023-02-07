@@ -72,3 +72,11 @@ class class2 : public class1
      */
     virtual std::string method2(int a, int b) override;
 };
+
+/**
+ * @brief this class does nothing
+ * 
+ */
+class class3 : public class1
+{
+};
