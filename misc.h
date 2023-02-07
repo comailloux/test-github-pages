@@ -41,3 +41,27 @@ class class1
      */
     void method1();
 }
+
+
+class class2 : public class1
+{
+    /**
+     * @brief Construct a new class2 object
+     * 
+     */
+    class2(){};
+    /**
+     * @brief Destroy the class2 object
+     * 
+     */
+    ~class2(){};
+
+    /**
+     * @brief This method will do a really useful thing with input param and return something meaningfull
+     * 
+     * @param a Is the most imprtant param of the all
+     * @param b Is less important but still usefull
+     * @return std::string Will tell you what has been done in this strange method
+     */
+    std::string method2(int a, int b) { static_cast<void}(a); static_cast<void>(b); return "well that was pointless";};
+}
