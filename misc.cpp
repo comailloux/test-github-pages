@@ -45,5 +45,3 @@ class2::~class2()
 {
     std::cout << "dtor class2" << std::endl;
 }
-
-std::string class2::method2(int a, int b) { static_cast<void}(a); static_cast<void>(b); return "well that was pointless";};
