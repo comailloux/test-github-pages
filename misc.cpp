@@ -45,3 +45,8 @@ class2::~class2()
 {
     std::cout << "dtor class2" << std::endl;
 }
+
+std::string class2::method2(int a, int b)
+{
+    return std::string();
+}

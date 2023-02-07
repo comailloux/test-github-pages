@@ -42,7 +42,9 @@ class class1
      * 
      */
     void method1();
-}
+
+    virtual std::string method2 (int a, int b) = 0;
+};
 
 /**
  * @brief Implements what's missig from class1
@@ -60,4 +62,13 @@ class class2 : public class1
      * 
      */
     ~class2();
-}
+
+    /**
+     * @brief This method will do a really useful thing with input param and return something meaningfull
+     * 
+     * @param a Is the most imprtant param of the all
+     * @param b Is less important but still usefull
+     * @return std::string Will tell you what has been done in this strange method
+     */
+    virtual std::string method2(int a, int b) override;
+};
