@@ -44,7 +44,10 @@ class class1
     virtual std::string method2 (int a, int b) = 0;
 }
 
-
+/**
+ * @brief Implements what's missig from class1
+ * 
+ */
 class class2 : public class1
 {
     /**
