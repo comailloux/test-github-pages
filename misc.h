@@ -40,6 +40,8 @@ class class1
      * 
      */
     void method1();
+
+    virtual std::string method2 (int a, int b) = 0;
 }
 
 
